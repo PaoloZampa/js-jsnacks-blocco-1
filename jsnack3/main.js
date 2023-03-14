@@ -12,4 +12,6 @@ const number8 = Number(prompt('inserisci un numero'));
 const number9 = Number(prompt('inserisci un numero'));
 const number10 = Number(prompt('inserisci un numero'));
 
-console.log(`'la somma dei tuoi numeri è' ${number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10}`)
+let somma = number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10
+
+console.log(`'la somma dei tuoi numeri è' ${somma}`)
